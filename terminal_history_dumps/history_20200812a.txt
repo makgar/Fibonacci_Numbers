@@ -1,0 +1,27 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd ../..
+    4  mkdir Fibonacci_Numbers
+    5  cd Fibonacci_Numbers/
+    6  pwd
+    7  git init
+    8  git add .
+    9  git commit -m "Initial_commit_from_cli"
+   14  ls -l
+   15  touch README.md
+   16  ll
+   17  git add .
+   18  git commit 
+   19  git remote add origin https://github.com/makgar/Fibonacci_Numbers.git
+   20  git add .
+   21  git commit -m "Initial commit from cli"
+   22  git push -u origin master
+   23  git status
+   24  man printf
+   25  history
+   26  pwd
+   27  mkdir terminal_history_dump
+   28  cd terminal_history_dump/
+   29  cd ..; mv terminal_history_dump terminal_history_dumps
+   30  cd terminal_history_dumps/
+   31  history > history_20200812a.txt
